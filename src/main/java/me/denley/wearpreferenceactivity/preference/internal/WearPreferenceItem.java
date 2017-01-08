@@ -101,4 +101,20 @@ public abstract class WearPreferenceItem implements Serializable {
     public int getTintColor(@NonNull final Context context) {
         return tintColor;
     }
+
+    public void setIcon(int icon) {
+        this.icon = icon;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public void setTintColor(int tintColor) {
+        this.tintColor = tintColor;
+    }
 }
